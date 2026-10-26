@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -7,11 +8,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- navbar pembuka -->
     <nav>
         <div class="wrapper navbar">
             <div class="logo"><a href="#home">JagatSaji</a></div>
-            <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+
+            <button class="menu-toggle" aria-label="Buka menu"
+                    aria-expanded="false">☰</button>
+
             <div class="menu">
                 <ul>
                     <li><a href="#home">Beranda</a></li>
@@ -27,70 +30,120 @@
         </div>
     </nav>
 
-    <!-- section banner -->
     <main>
         <div class="wrapper">
+
+            <!-- Banner utama -->
             <section id="home" class="hero">
                 <div class="kolom">
                     <h1>Sajian Masakan Indonesia</h1>
-                    <p class="deskripsi">Nikmati kelezatan resep warisan leluhur yang diolah dari bumbu rempah pilihan. Dari Sabang sampai Merauke, kami menghadirkan kehangatan tradisi Indonesia langsung ke meja makan Anda. Jelajahi rasa kuliner Nusantara dengan keaslian rempah, kesegaran bahan, dan kehangatan tradisi dalam setiap sajian.</p>
-                    <a href="#online" class="reservasi">pesan sekarang</a>
+                    <p class="deskripsi">
+                        Nikmati kelezatan resep warisan leluhur yang diolah
+                        dari bumbu rempah pilihan. Dari Sabang sampai Merauke,
+                        kami menghadirkan kehangatan tradisi Indonesia
+                        langsung ke meja makan Anda.
+                    </p>
+                    <a href="#online" class="reservasi">Pesan Sekarang</a>
                 </div>
-                <img class="gambar" src="images/nusantara.avif" alt="Hidangan masakan Nusantara">
+
+                <img
+                    class="gambar"
+                    src="./images/nusantara.avif"
+                    alt="Hidangan masakan Nusantara"
+                    onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=80';"
+                >
             </section>
 
-            <!-- pilihan menu -->
+            <!-- Pilihan menu -->
             <section id="online" class="menu-section">
                 <h2>Pilihan Menu</h2>
+
                 <div class="menu-grid">
+
                     <article class="menu-card">
-                        <img src="images/nusantara.jpg" alt="Nasi kuning">
+                        <img
+                            src="./images/nusantara.jpg"
+                            alt="Nasi kuning"
+                            loading="lazy"
+                            onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=800&q=80';"
+                        >
                         <div class="card-content">
                             <h3>Nasi Kuning</h3>
                             <p>Masakan khas dengan aroma rempah dan rasa gurih yang cocok untuk berbagai suasana.</p>
                         </div>
                     </article>
+
                     <article class="menu-card">
-                        <img src="images/gado-gado.jpg" alt="Gado-gado">
+                        <img
+                            src="./images/gado-gado.jpg"
+                            alt="Gado-gado"
+                            loading="lazy"
+                            onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80';"
+                        >
                         <div class="card-content">
                             <h3>Gado-gado</h3>
                             <p>Sayuran segar dengan saus kacang yang nikmat, sederhana dan penuh cita rasa.</p>
                         </div>
                     </article>
+
                     <article class="menu-card">
-                        <img src="images/nusantara.avif.jpg" alt="Nasi uduk">
+                        <img
+                            src="./images/nasi-uduk.jpg"
+                            alt="Nasi uduk"
+                            loading="lazy"
+                            onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=800&q=80';"
+                        >
                         <div class="card-content">
                             <h3>Nasi Uduk</h3>
                             <p>Nasi gurih beraroma santan, disajikan sebagai hidangan favorit keluarga.</p>
                         </div>
                     </article>
+
                     <article class="menu-card">
-                        <img src="images/nusantara.avif" alt="Hidangan masakan Nusantara" alt="Nasi daun jeruk">
+                        <img
+                            src="./images/nasi-daun-jeruk.jpg"
+                            alt="Nasi daun jeruk"
+                            loading="lazy"
+                            onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80';"
+                        >
                         <div class="card-content">
                             <h3>Nasi Daun Jeruk</h3>
                             <p>Aroma daun jeruk yang segar berpadu dengan lauk berbumbu pilihan.</p>
                         </div>
                     </article>
+
                     <article class="menu-card">
-                        <img src="images/nasi pecel.jpg" alt="Nasi pecel">
+                        <img
+                            src="./images/nasi-pecel.jpg"
+                            alt="Nasi pecel"
+                            loading="lazy"
+                            onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80';"
+                        >
                         <div class="card-content">
                             <h3>Nasi Pecel</h3>
                             <p>Sayuran rebus dengan sambal kacang khas yang kaya rasa dan menggugah selera.</p>
                         </div>
                     </article>
+
                     <article class="menu-card">
-                        <img src="images/gado-gado.jpg" alt="Rujak cingur">
+                        <img
+                            src="./images/rujak-cingur.jpg"
+                            alt="Rujak cingur"
+                            loading="lazy"
+                            onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80';"
+                        >
                         <div class="card-content">
                             <h3>Rujak Cingur</h3>
                             <p>Hidangan khas Jawa Timur dengan bumbu petis yang unik dan lezat.</p>
                         </div>
                     </article>
+
                 </div>
             </section>
         </div>
     </main>
 
-    <!-- footer -->
+    <!-- Footer -->
     <footer id="partner">
         <div class="wrapper footer-grid">
             <div>
@@ -98,26 +151,35 @@
                 <p>Location in Indonesia</p>
                 <p>JagatSaji@example.com</p>
             </div>
+
             <div id="offline">
                 <h3>JagatSaji</h3>
                 <p>Kuliner SMK Negeri 2 Mojokerto</p>
-                <div class="socials"><a href="#partner" aria-label="Instagram">◎</a><a href="#partner" aria-label="Facebook">f</a><a href="#partner" aria-label="TikTok">♪</a></div>
+                <div class="socials">
+                    <a href="#partner" aria-label="Instagram">◎</a>
+                    <a href="#partner" aria-label="Facebook">f</a>
+                    <a href="#partner" aria-label="TikTok">♪</a>
+                </div>
             </div>
+
             <div>
                 <h3>Opening Hours</h3>
                 <p>Everyday 10.00 AM - 10.00 PM</p>
             </div>
         </div>
+
         <p class="copyright">© 2026 All Rights Reserved by JagatSaji</p>
     </footer>
 
     <script>
         const toggle = document.querySelector(".menu-toggle");
         const menu = document.querySelector(".menu");
+
         toggle.addEventListener("click", () => {
             const open = menu.classList.toggle("show");
-            toggle.setAttribute("aria-expanded", open);
+            toggle.setAttribute("aria-expanded", String(open));
         });
     </script>
 </body>
 </html>
+```
